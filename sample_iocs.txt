@@ -1,0 +1,5 @@
+# One indicator per line. Lines starting with # are ignored.
+# 275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f is the harmless EICAR test file hash
+275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f
+8.8.8.8
+example.com
