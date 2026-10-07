@@ -94,7 +94,7 @@ Results are stored in `.ioc_cache.json` in the working directory, keyed by the l
 Requires Python 3.8+.
 
 ```bash
-git clone https://github.com/<your-username>/ioc-lookup.git
+git clone https://github.com/<your-DGUY1-wilm>/ioc-lookup.git
 cd ioc-lookup
 pip install -r requirements.txt
 cp .env.example .env      # Windows: copy .env.example .env
