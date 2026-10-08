@@ -171,7 +171,7 @@ python ioc_lookup.py 275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf65
 **Congratulations, you just did a real security lookup.**
 After a few seconds you should see a report like this (the numbers will be a little different for you):
 
-![Terminal showing the result of the first lookup](example2.png)
+![Terminal showing the result of the first lookup](example.png)
 
 Don't worry if the **File Type** says something odd like "Powershell." That label comes from VirusTotal, and it can look strange for test files.
 
