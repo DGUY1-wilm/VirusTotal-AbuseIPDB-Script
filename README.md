@@ -138,21 +138,11 @@ python ioc_lookup.py 8.8.8.8 --no-cache
 
 ### Example output
 
-Illustrative; actual numbers vary over time.
+Real output from running the tool on a hash, an IP address, and a domain. Numbers change as VirusTotal's data updates.
 
-```
-============================================================
-Indicator : 275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f
-Type      : hash
-VERDICT   : MALICIOUS
-------------------------------------------------------------
-VirusTotal
-  Detections: 60 malicious, 0 suspicious, 0 harmless, 10 undetected
-  File Type     : EICAR virus test files
-  First Seen    : 2013-... UTC
-```
+![Example output showing a hash, an IP address, and a domain lookup](example1.png)
 
-The example hash is the EICAR test file, a harmless string that antivirus engines flag on purpose.
+The hash is the EICAR test file, a harmless string that antivirus engines flag on purpose. The two CLEAN results show what a benign IP (`8.8.8.8`) and domain (`example.com`) look like.
 
 ## Project structure
 
